@@ -1,5 +1,3 @@
-<?php include('inc/password_protect.php'); ?>
-<?php include('inc/thanks-message.php'); ?>
 <?php 
 $pageTitle = "Healthy Selfie | Health &amp; Fitness App";
 $section = "index";
@@ -12,12 +10,13 @@ include('inc/header.php'); ?>
                     <div class="row">
                     	
                         <div class="col-sm-7 text" itemscope itemtype="http://schema.org/MobileApplication">
-                        	<div class="logo">
-                        		<h1 itemprop="name" class="animated bounceIn delay-1"><a href="index.html">Healthy Selfie</a></h1>
+                        	<div class="logo animated bounceIn delay-1">
+                        		<a href="index.php"><img src="assets/img/logos/logo-retina.png" /></a>
+
                         	</div>
-                            <h2>Healthy Selfie.<br> <span>Picture a new you.</span></h2>
+                            <h2 class="animated slideInUp delay-1">Healthy Selfie.<br> <span class="animated fadeInUp delay-3">Picture a new you.</span></h2>
                             <div class="description">
-                            	<p>Healthy Selfie is a social networking app that allows you to track your body’s physical evolution.</p>
+                            	<p>Healthy Selfie is a <b>FREE</b> social networking app that allows you to track your body’s physical evolution.</p>
                             </div>
                             
                             <div class="top-button">
@@ -48,7 +47,7 @@ include('inc/header.php'); ?>
 	        <div class="container">
 	            <div class="row">
 	                <div class="col-sm-12 features">
-	                    <h3>Main features</h3>
+	                    <h2>Main features</h2>
 	                    
 	                </div>
 	            </div>
@@ -127,23 +126,7 @@ include('inc/header.php'); ?>
         </div>
 
         <!-- Subscription form -->
-        <div class="subscribe-container" id="subscribe">
-	        <div class="container">
-	            <div class="row">
-	                <div class="col-sm-12 subscribe">
-	                    <h3>Show your interest</h3>
-	                    <p>When Healthy Selfie is available for download we'll let you know:</p>
-	                    <form class="form-inline" action="assets/subscribe.php" method="post">
-	                        <input type="text" name="email" placeholder="Enter your email...">
-	                        <button type="submit" class="btn">Submit</button>
-	                    </form>
-	                   
-	                    <div class="success-message"></div>
-	                    <div class="error-message"></div>
-	                </div>
-	            </div>
-	        </div>
-        </div>
+        <?php include("inc/subscription.php"); ?>
 
                <!-- Single feature -->
         <div class="single-feature-container single-feature-bg" name="" id="news">
@@ -169,7 +152,7 @@ include('inc/header.php'); ?>
 						  </a>
 						  <div class="media-body">
 						    <h4 class="media-heading">The Summit Dublin</h4>
-						    <p>We're proud to announce that we've been invited to exhibit Summit Dublin, between the <b>4-6th of November 2014</b>.</p>
+						    <p>We're proud to announce that we've been invited to exhibit at the Summit Dublin, between the <b>4-6th of November 2014</b>.</p>
 						    <a href="http://summitdublin.com/">Visit <i class="fa fa-chevron-right"></i></a>
 						  </div>
 						</div>

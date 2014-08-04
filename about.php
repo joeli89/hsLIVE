@@ -181,23 +181,7 @@ include('inc/header.php'); ?>
 
         
         <!-- Subscription form -->
-        <div class="subscribe-container" id="subscribe">
-	        <div class="container">
-	            <div class="row">
-	                <div class="col-sm-12 subscribe">
-	                    <h3>Show your interest</h3>
-	                    <p>When Healthy Selfie is available for download we'll let you know:</p>
-	                    <form class="form-inline" action="assets/subscribe.php" method="post">
-	                        <input type="text" name="email" placeholder="Enter your email...">
-	                        <button type="submit" class="btn">Submit</button>
-	                    </form>
-	                   
-	                    <div class="success-message"></div>
-	                    <div class="error-message"></div>
-	                </div>
-	            </div>
-	        </div>
-        </div>
+        <?php include("inc/subscription.php"); ?>
 
         
 <?php 

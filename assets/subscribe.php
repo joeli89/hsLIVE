@@ -26,7 +26,7 @@ if($_POST) {
     else {
         $array = array();
         $array['valid'] = 1;
-        header("Location: ../index.php?status=cheers");
+        header("Location: ../index.php?subscribe=success#subscribe");
 
         // Send email
         $subject = 'New Subscriber | Healthy Selfie!';
@@ -34,7 +34,6 @@ if($_POST) {
         // uncomment this to set the From and Reply-To emails, then pass the $headers variable to the "mail" function below
         //$headers = "From: ".$subscriber_email." <" . $subscriber_email . ">" . "\r\n" . "Reply-To: " . $subscriber_email;
         mail($emailTo, $subject, $body);
-
     }
 
 }

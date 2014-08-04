@@ -31,6 +31,8 @@ if($_POST) {
        //$headers = "From: " . $clientEmail . " <" . $clientEmail . ">" . "\r\n" . "Reply-To: " . $clientEmail;
        mail($emailTo, "HS Contact Form |" . " " . $subject, $message);
       header("Location: ../contact.php?status=thanks");   
+   }else{
+    header("Location: /contact.php?try=again");
    }
 
    echo json_encode($array);

@@ -1,4 +1,4 @@
-<?php 
+<?php include('inc/password_protect.php'); ?><?php 
 $pageTitle = "Healthy Selfie | Health &amp; Fitness App";
 $section = "prototype";
 include('inc/header.php'); ?> 
@@ -11,9 +11,13 @@ include('inc/header.php'); ?>
 
                     <div class="col-sm-12">
                         <div id="loadImg">
-                                <h1><i class="fa fa-spin"><img src="assets/img/logos/face.png"></i></h1><p>Loading</p>
+
+                            <h1><i class="fa fa-spin"><img src="assets/img/logos/face.png"></i></h1><p>Loading..</p><p>Please note this just a working example.</p>             
+                        
                         </div>
-                        <iframe name=iframe width="100%" height="834" src="http://invis.io/62YUEDEA" frameborder="0" allowfullscreen scrolling="no" noresize onload="document.getElementById('loadImg').style.display='none';"></iframe>     
+                        
+                        <iframe name=iframe width="100%" height="834" src="http://invis.io/62YUEDEA" frameborder="0" allowfullscreen scrolling="no" noresize onload="document.getElementById('loadImg').style.display='none';"></iframe>   
+                        <li class="logout"><a href="index.php?logout=1"><i class="fa fa-lock"></i>  Logout</a></li>  
                     </div>
 
                     	

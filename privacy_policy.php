@@ -128,7 +128,7 @@ include("inc/info-header.php");
                         <div class="privacy-body">
                             <p>
                                 <b>Data transfers</b><br>
-                                We will generally hold your Information on our servers in [LOCATION]. However, we may transfer it to our overseas offices and facilities elsewhere in the world or to our associates, partners, customers, who may be located elsewhere. By registering for and/or using the Service, you hereby consent to such transfer.
+                                We will generally hold your Information on our servers in the California, USA. However, we may transfer it to our overseas offices and facilities elsewhere in the world or to our associates, partners, customers, who may be located elsewhere. By registering for and/or using the Service, you hereby consent to such transfer.
                                 When transferring or holding your Information outside of your country to another, we will endeavour to ensure that the other country has appropriately strong protection guarantees as your country, however we cannot promise that this will be the case. In some cases, transferree countries may not have as strong data privacy laws as your country.
                             <p/>
                         </div>

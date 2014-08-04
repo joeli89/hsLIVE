@@ -1,3 +1,13 @@
+/*LOGO*/
+
+.logo img {
+	max-width: 160px;
+}
+
+.logo img:hover {
+	content: url(../img/logos/logo-retina-hover.png);
+}
+
 /*ACTIVE OVERWRITE */
 .navbar-default .navbar-nav>.active>a {
 
@@ -5,38 +15,9 @@
 
 /*HOLDING PAGE TEMP*/
 
-.index-inner-bg {
-	padding: 0;
-	background-color: #e96045;
-}
 
 .inner-bg2 {
 	background-color: #e96045;
-}
-
-.top-button {
-	padding-bottom: 50px;
-}
-
-.top-content .text {
-	padding-top: 0;
-}
-
-
-/* END HOLDING PAGE TEMP*/
-
-/*alert*/
-
-.alert-warning {
-background-color: #1072f7;
-border-color: #1072f7;
-color: #ffffff;
-
-}
-.alert-warning h3 {
-	font-size: 30px;
-	font-family: 'ThirstyScript', HelveticaNeue-UltraLight,'Open Sans', sans-serif;
-	line-height: 0;
 }
 
 /*FORM*/
@@ -131,6 +112,9 @@ padding-bottom: 30px;
 }
 .features h3 {
 	color: #ffffff;
+}
+#features h4 {
+	text-align: center;
 }
 .features-container {
 	background-color: #343333;
@@ -464,10 +448,6 @@ background-size: cover;
 
 
 
-
-
-
-
 @media (max-width: 767px) {
 
     
@@ -503,6 +483,12 @@ background-size: cover;
 	.startDate {
 		display: none;
 	}
+	#features h4 {
+		font-size: 20px;
+	}
+	.selfies h3, .compare h3 {
+		font-size: 30px;
+	}
 
 
 
@@ -512,13 +498,36 @@ background-size: cover;
 
  @media (max-width: 500px) {
 
- 	    .iphones-img img  {
+ 	.iphones-img img  {
     	max-width:90%;
     }
 
     #privacy .iphones-img img {
     	max-width: 80%
     }
+    .left-footer {
+    	margin-top: 40px;
+    }
+    #features h4 {
+		font-size: 12px;
+	}
+	.selfies_home {
+	margin-top: 50%;
+	}
+	.logo img {
+	max-width: 100px;
+	margin-top: 18%;
+	}	
+	h2 {
+		font-size: 34px;
+	}
+	.top-content h2  {
+		font-size: 34px;
+	}
+	.top-content h2 span {
+		font-size: 28px;
+	}
+
 
 
  }

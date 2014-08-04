@@ -13,6 +13,30 @@
   <loc>http://www.healthyselfieapp.com/index.php</loc>
 </url>
 <url>
+  <loc>http://www.healthyselfieapp.com/features.php</loc>
+</url>
+<url>
+  <loc>http://www.healthyselfieapp.com/prototype.php</loc>
+</url>
+<url>
+  <loc>http://www.healthyselfieapp.com/about.php</loc>
+</url>
+<url>
+  <loc>http://www.healthyselfieapp.com/contact.php</loc>
+</url>
+<url>
+  <loc>http://www.healthyselfieapp.com/privacy_policy.php</loc>
+</url>
+<url>
+  <loc>http://www.healthyselfieapp.com/termsofuse.php</loc>
+</url>
+<url>
+  <loc>http://www.healthyselfieapp.com/support.php</loc>
+</url>
+<url>
+  <loc>http://www.healthyselfieapp.com/jobs.php</loc>
+</url>
+<url>
   <loc>http://www.healthyselfieapp.com/selfies.php</loc>
 </url>
 <url>
@@ -20,5 +44,8 @@
 </url>
 <url>
   <loc>http://www.healthyselfieapp.com/food-diary.php</loc>
+</url>
+<url>
+  <loc>http://www.healthyselfieapp.com/scrapbooks.php</loc>
 </url>
 </urlset>

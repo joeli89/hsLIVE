@@ -8,7 +8,7 @@ include('inc/header.php'); ?>
 	        <div class="container">
 	            <div class="row">
 	                <div class="col-sm-12 features">
-	                    <h3>Main features</h3>
+	                    <h2>Main features</h2>
 	                    
 	                </div>
 	            </div>
@@ -93,7 +93,7 @@ include('inc/header.php'); ?>
 	            <div class="row">
 	                <div class="col-sm-12 single-feature-text">
 	                	<img src="assets/img/icons/selfies.png" alt="Healthy Selfie App, track and monitor your bodys progression trhough taking selfies, with our new iOS mobile application." />
-	                    <h3>Selfies &amp; Stats</h3>
+	                    <h2>Selfies &amp; Stats</h2>
 	                    <p>
 	                    	Photos are the most intuitive way of tracking your body's progression. Looking at your body objectively is the ultimate motivation. 
 	                    	Using the App's augmented camera ensures you're in the right spot for every selfie.
@@ -117,7 +117,7 @@ include('inc/header.php'); ?>
 	            <div class="row">
 	                <div class="col-sm-12 single-feature-text">
 	                	<img src="assets/img/icons/compare-grey.png" alt="Healthy Selfie App, track and monitor your bodys progression trhough taking selfies, with our new iOS mobile application." />
-	                    <h3>Compares</h3>
+	                    <h2>Compares</h2>
 	                    <p>
 	                    	Simply select selfies from different intervals throughout your fitness journey and see changes you won't notice from just looking in the mirror. Share your compares and inspire others... Or just show off your amazing results!
 	                    </p>
@@ -138,7 +138,7 @@ include('inc/header.php'); ?>
 	            <div class="row">
 	                <div class="col-sm-12 single-feature-text">
 	                	<img src="assets/img/icons/foodDiary.png" alt="Healthy Selfie, keep a food diary."/>
-	                    <h3>Food Diary</h3>
+	                    <h2>Food Diary</h2>
 	                    <p>
 	                    	You are what you eat, so why not keep a food diary? The traditional process of keeping a food diary is boring and timely, so we decided it would be easier to simply take photos of what you’re eating instead. 
 							Made something you’re proud of? Do more than just take a photo - input the recipe and ingredients  so that others can try it out too! Sharing healthy food ideas has never been easier! 
@@ -160,7 +160,7 @@ include('inc/header.php'); ?>
 	            <div class="row">
 	                <div class="col-sm-12 single-feature-text">
 	                	<img src="assets/img/icons/scrapbooks-grey.png" alt="Healthy Selfie, keep all your inspiration or recipes in one place."/>
-	                    <h3>Scrapbooks</h3>
+	                    <h2>Scrapbooks</h2>
 	                    <p>
 	                    	Feeling inspired? Seen a nice recipe? Tack it to your scrapbook. Scrapbooks allow you to consolidate all your inspiration in one place. No more trawling through hundreds of photos to find that one pic.
 	                    </p>
@@ -181,7 +181,7 @@ include('inc/header.php'); ?>
 	            <div class="row">
 	                <div class="col-sm-12 single-feature-text">
 	                	<img src="assets/img/icons/explore.png" alt="Healthy Selfie, discover the fitness industry and get access to a database fo results."/>
-	                    <h3>Discover</h3>
+	                    <h2>Discover</h2>
 	                    <p>
 	                    	The discover function is there to provide you with all the information you need to aid you on your 
 	                    	fitness journey. For the first time ever, you get access to a huge <b>database of results</b> from different 
@@ -204,7 +204,7 @@ include('inc/header.php'); ?>
 	            <div class="row">
 	                <div class="col-sm-12 single-feature-text">
 	                	<img src="assets/img/icons/fitFeed.png" alt="Healthy Selfie, keep up to date with what others are doing."/>
-	                    <h3>Fit Feed</h3>
+	                    <h2>Fit Feed</h2>
 	                    <p>
 	                    	The Fit feed is a live feed of all the people you are following and supporting. Keep up to date with
 	                    	 their progression, what they’re doing, how they’re training and what they’re eating. A recent survey

@@ -1,4 +1,4 @@
-<?php include('inc/password_protect.php'); ?><?php 
+<?php 
 $pageTitle = "Gym Motivation all in one place, Healthy Selfie";
 $section = "scrapbooks";
 $feature = "yes";

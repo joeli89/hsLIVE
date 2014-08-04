@@ -14,7 +14,7 @@ include("inc/info-header.php");
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-lg-12">
-                          <div class="alert alert-success" role="alert">
+                          <div class="alert alert-success animated slideInDown delay-1" role="alert">
                             <h1>Sweet, we got it! <i class="fa fa-thumbs-o-up"></i></h1>
                             <h4>Good Luck and we'll be in touch soon. Thanks.</h4>
                           </div>
@@ -89,7 +89,7 @@ include("inc/info-header.php");
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-lg-12">
-                          <div class="alert alert-danger" role="alert">
+                          <div class="alert alert-danger animated slideInDown delay-1" role="alert">
                             <h1>Houston we have a problem. <i class="fa fa-thumbs-o-down"></i></h1>
                             <h4>Please try again, and make sure all your details are entered correctly. Thanks.</h4>
                           </div>

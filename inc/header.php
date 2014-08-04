@@ -48,8 +48,7 @@
 
 <?php if($feature == "yes") { ?>
 
-    <div class="top-content">
-        <nav class="navbar navbar-default navbar-fixed-top animated slideInDown duration-1" role="navigation" >
+    <nav class="navbar navbar-default navbar-fixed-top animated slideInDown duration-1" role="navigation" >
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -108,7 +107,7 @@
 <?php } else { ?>
 
 
-        <nav class="navbar navbar-default navbar-fixed-top animated slideInDown duration-1" role="navigation" >
+    <nav class="navbar navbar-default navbar-fixed-top animated slideInDown duration-1" role="navigation" >
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">

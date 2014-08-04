@@ -1,4 +1,3 @@
-<?php include('inc/password_protect.php'); ?>
 <?php 
 $pageTitle = "Compare your Selfies, Healthy Selfie";
 $section = "compares";
